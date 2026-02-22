@@ -9,7 +9,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Restaurant-Management-App/">
       <Routes>
         <Route path="/" element={<Login />} />
 
